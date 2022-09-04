@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css">
     <title>Портфоліо</title>
     
@@ -16,11 +16,11 @@
     <!-- Шапка -->
     <header>
         <nav>
-            <a class=" logo-text" href="./index.html">Web<span class="text-logo2">Studio</span> </a>
-        <ul>
-            <li ><a class="studio-header" href="./index.html">Студія</a></li>
-    <li ><a class="portfolio-header" href="./portfolio.html">Портфоліо</a></li>
-    <li><a class="contact-header" href="#">Контакти</a></li>
+            <a class=" logo" href="./index.html">Web<span class="text-logo">Studio</span> </a>
+        <ul class="nav-link">
+            <li ><a  href="./index.html">Студія</a></li>
+    <li ><a class="current" href="./portfolio.html">Портфоліо</a></li>
+    <li><a  href="#">Контакти</a></li>
         </ul>
         </nav>
         <ul>
@@ -31,13 +31,16 @@
         <!-- main -->
         <main>
         <!-- filter -->
-        <div>
-            <button class="button" type="button">Усі</button> 
-            <button class="button" type="button">Веб-сайти</button>
-            <button class="button" type="button">Додатки</button>
-            <button class="button" type="button">Дизайн</button>
-            <button class="button" type="button">Маркетинг</button>
-        </div>
+        <section>
+            <h1 hidden>Секція</h1>
+        <ul>
+          <li><button class="button primary" type="button">Усі</button></li>   
+           <li><button class="button" type="button">Веб-сайти</button></li> 
+           <li><button class="button" type="button">Додатки</button></li> 
+          <li><button class="button" type="button">Дизайн</button></li>  
+          <li><button class="button" type="button">Маркетинг</button></li>  
+        </ul>
+        </section>
         <!-- projekt -->
         <section>
             <ul>
@@ -92,14 +95,14 @@
         </main>
         <!-- footer -->
         <footer class="footer-style">
-            <a class=" logo-text" href="./portfolio.html"> Web <span class="text-logo-footer">Studio</span></a>
+            <a class=" logo" href="./portfolio.html"> Web <span class="logo-footer">Studio</span></a>
             <address>
              <ul>
             <li>
              <a class="address" href="#">м. Київ, пр-т Лесі Українки, 26</a> 
             </li>
-            <li> <a class="test-link" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-            <li><a class="test-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li> <a class="link" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>  
             </address>
         </footer>
