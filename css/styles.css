@@ -8,6 +8,7 @@
 body {
  background-color:var(--primary-bg-color);
 color:var(--title-text-color);
+font-style: normal;
 font-family: Roboto, sans-serif;
 font-size: 14px;
 letter-spacing: 0.03em;
@@ -20,18 +21,29 @@ a {
     text-decoration-line: none;
 }
 
+.visually-hidden{
+position: absolute;
+width: 0px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
   .projekt-title {
- font-weight: 700;
-font-size: 18px;
+ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--title-text-color);
+
  }
 
  .text-projekt {
 font-size: 16px;
 line-height: 1.8;
-color:var(--primary-text-color);
  }
 
 
@@ -125,6 +137,7 @@ margin-bottom: 95px;
 }
 
 .feature-title {
+font-size: 14px;
 line-height:1.2;
 text-transform: uppercase;
 color:var(--title-text-color);
@@ -181,9 +194,7 @@ color:var(--title-text-color);
 }
 
 .address {
-width: 231px;
-height: 21px;
- font-weight: 400;
+ 
 line-height:1.8;
  color:var(--primary-bg-color);
 }
@@ -193,7 +204,7 @@ line-height:1.8;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--title-text-color);
+    color:var(--primary-text-color);
 }
 
 .test-link:hover,
